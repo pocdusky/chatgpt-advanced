@@ -1,6 +1,6 @@
 import '../style/base.css'
 import { h, render } from 'preact'
-import { getTextArea, getFooter, getRootElement, getSubmitButton, getWebChatGPTToolbar } from '../util/elementFinder'
+import { getTextArea, getFooter, getRootElement, getSubmitButton, getpocGPTToolbar } from '../util/elementFinder'
 import Toolbar from 'src/components/toolbar'
 import ErrorMessage from 'src/components/errorMessage'
 import { getUserConfig, UserConfig } from 'src/util/userConfig'
@@ -124,7 +124,7 @@ function pressEnter() {
 }
 
 function showErrorMessage(error: Error) {
-    console.info("WebChatGPT error --> API error: ", error)
+    console.info("pocGPT error --> API error: ", error)
     const div = document.createElement('div')
     document.body.appendChild(div)
     render(<ErrorMessage message={error.message} />, div)
@@ -138,7 +138,7 @@ async function updateUI() {
     updatingUI = true
 
     textarea = getTextArea()
-    toolbar = getWebChatGPTToolbar()
+    toolbar = getpocGPTToolbar()
     console.info("toolbar --> ", toolbar)
     if (!textarea) {
         toolbar?.remove()
@@ -147,7 +147,7 @@ async function updateUI() {
 
     if (toolbar) return
 
-    console.info("WebChatGPT: Updating UI")
+    console.info("pocGPT: Updating UI")
 
     btnSubmit = getSubmitButton()
     btnSubmit?.addEventListener("click", onSubmit)
@@ -178,7 +178,7 @@ async function renderToolbar() {
 
     } catch (e) {
         if (e instanceof Error) {
-            showErrorMessage(Error(`Error loading WebChatGPT toolbar: ${e.message}. Please reload the page (F5).`))
+            showErrorMessage(Error(`Error loading pocGPT toolbar: ${e.message}. Please reload the page (F5).`))
         }
     }
 }
@@ -188,9 +188,9 @@ const mutationObserver = new MutationObserver((mutations) => {
     
     if (!mutations.some(mutation => mutation.removedNodes.length > 0)) return
 
-    console.info("WebChatGPT: Mutation observer triggered")
+    console.info("pocGPT: Mutation observer triggered")
     
-    if (getWebChatGPTToolbar()) return
+    if (getpocGPTToolbar()) return
 
     try {
         updateUI()

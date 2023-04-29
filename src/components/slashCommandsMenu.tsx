@@ -157,7 +157,7 @@ function SlashCommandsMenu(
 
     return (
         <ul className={`flex-col flex-1 overflow-y-auto border border-white/20 rounded-md bg-gray-900 shadow-[0_0_10px_rgba(0,0,0,0.10)]`}>
-            <li className='px-3 p-2 text-xs text-white b-2 border-b border-white/20'>WebChatGPT Commands</li>
+            <li className='px-3 p-2 text-xs text-white b-2 border-b border-white/20'>pocGPT Commands</li>
 
             {filteredCommands.map((command) => {
                 return (

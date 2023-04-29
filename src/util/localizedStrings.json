@@ -112,19 +112,19 @@
     "bg": "Ограничи резултати от търсенето до определени сайтове, например /site:wikipedia.com"
   },
   "page_command_description": {
-    "en": "Get the content of a specific page, e.g. /page:buymeacoffee.com/anzorq",
-    "pt": "Obter o conteúdo de uma página específica, por exemplo /page:buymeacoffee.com/anzorq",
-    "es": "Obtener el contenido de una página específica, por ejemplo /page:buymeacoffee.com/anzorq",
-    "fr": "Obtenir le contenu d'une page spécifique, par exemple /page:buymeacoffee.com/anzorq",
-    "de": "Den Inhalt einer bestimmten Seite erhalten, z. B. /page:buymeacoffee.com/anzorq",
-    "it": "Ottenere il contenuto di una pagina specifica, ad esempio, /page:buymeacoffee.com/anzorq",
-    "zh": "获取特定页面的内容，例如 /page:buymeacoffee.com/anzorq",
-    "zh-TW": "取得特定頁面的內容，例如 /page:buymeacoffee.com/anzorq",
-    "ja": "特定のページのコンテンツを取得します。例: /page:buymeacoffee.com/anzorq",
-    "ko": "특정 페이지의 내용을 가져옵니다. 예: /page:buymeacoffee.com/anzorq",
-    "he": "קבל את תוכן דף מסוים, למשל /page:buymeacoffee.com/anzorq",
-    "ru": "Получить содержимое определенной страницы, например, /page:buymeacoffee.com/anzorq",
-    "bg": "Вземи информация от спесифична страница, например /page:buymeacoffee.com/anzorq"
+    "en": "Get the content of a specific page, e.g. /page:buymeacoffee.com/pocdusky",
+    "pt": "Obter o conteúdo de uma página específica, por exemplo /page:buymeacoffee.com/pocdusky",
+    "es": "Obtener el contenido de una página específica, por ejemplo /page:buymeacoffee.com/pocdusky",
+    "fr": "Obtenir le contenu d'une page spécifique, par exemple /page:buymeacoffee.com/pocdusky",
+    "de": "Den Inhalt einer bestimmten Seite erhalten, z. B. /page:buymeacoffee.com/pocdusky",
+    "it": "Ottenere il contenuto di una pagina specifica, ad esempio, /page:buymeacoffee.com/pocdusky",
+    "zh": "获取特定页面的内容，例如 /page:buymeacoffee.com/pocdusky",
+    "zh-TW": "取得特定頁面的內容，例如 /page:buymeacoffee.com/pocdusky",
+    "ja": "特定のページのコンテンツを取得します。例: /page:buymeacoffee.com/pocdusky",
+    "ko": "특정 페이지의 내용을 가져옵니다. 예: /page:buymeacoffee.com/pocdusky",
+    "he": "קבל את תוכן דף מסוים, למשל /page:buymeacoffee.com/pocdusky",
+    "ru": "Получить содержимое определенной страницы, например, /page:buymeacoffee.com/pocdusky",
+    "bg": "Вземи информация от спесифична страница, например /page:buymeacoffee.com/pocdusky"
   },
   "support_this_project": {
     "en": "Support this project",

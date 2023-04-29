@@ -51,7 +51,7 @@ export async function getWebpageTitleAndText(url: string, html_str = ''): Promis
     const userConfig = await getUserConfig()
     if (userConfig.trimLongText && text.length > 14400) {
         text = text.slice(0, 14400)
-        text += "\n\n[Text has been trimmed to 14,500 characters. You can disable this on WebChatGPT's options page.]"
+        text += "\n\n[Text has been trimmed to 14,500 characters. You can disable this on pocGPT's options page.]"
     }
     return { title: parsed.title, body: text, url }
 }

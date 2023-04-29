@@ -1,11 +1,11 @@
 {
   "appName": {
-    "message": "WebChatGPT: ChatGPT with internet access"
+    "message": "pocGPT: ChatGPT with internet access"
   },
   "appDesc": {
-    "message": "Augment your ChatGPT prompts with relevant results from the web."
+    "message": "Upgrade ChatGPT with web insights."
   },
   "toggleWebAccess": {
-    "message": "Toggle Web Access"
+    "message": "Toggle Internet access"
   }
 }

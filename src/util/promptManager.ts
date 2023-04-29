@@ -49,7 +49,7 @@ const replaceVariables = (prompt: string, variables: { [key: string]: string }) 
         try {
             newPrompt = newPrompt.replaceAll(key, variables[key])
         } catch (error) {
-            console.info("WebChatGPT error --> API error: ", error)
+            console.info("pocGPT error --> API error: ", error)
         }
     }
     return newPrompt

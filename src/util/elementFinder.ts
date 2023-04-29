@@ -10,7 +10,7 @@ export function getRootElement(): HTMLDivElement {
     return document.querySelector('div[id="__next"]')
 }
 
-export function getWebChatGPTToolbar(): HTMLElement {
+export function getpocGPTToolbar(): HTMLElement {
     return document.querySelector("div[class*='wcg-toolbar']")
 }
 
