@@ -63,7 +63,7 @@ https://user-images.githubusercontent.com/3750161/214155508-5c1ad4d8-b565-4fe0-9
 
 ## Build from source
 
-1. `git clone https://github.com/qunash/chatgpt-advanced.git`
+1. `git clone https://github.com/pocdusky/pocgpt.git`
 2. `npm install`
 3. `npm run build-prod`
 4. Grab your zip extension from `build/` folder
