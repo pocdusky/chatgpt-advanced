@@ -29,7 +29,6 @@ This browser extension `adds web access` capability to [ChatGPT](https://chat.op
 </div>
 <br>
 
-https://user-images.githubusercontent.com/3750161/214155508-5c1ad4d8-b565-4fe0-9ce7-e68aed11e73d.mp4
 
 
 ## Manual installation
