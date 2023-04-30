@@ -1,6 +1,6 @@
-[link-chrome]: https://chrome.google.com/webstore/detail/chatgpt-advanced/lpfemeioodjbpieminkklglpmhlngfcn 'Chrome Web Store'
-[link-firefox]: https://addons.mozilla.org/en-US/firefox/addon/web-chatgpt/ 'Firefox Add-ons'
-[link-edge]: https://microsoftedge.microsoft.com/addons/detail/arxivutils/flahobhjikkpnpohomeckhdjjkkkkmoc/ 'Edge Add-ons'
+[link-chrome]: https://chrome.google.com/webstore/detail/pocgpt/lpfemeioodjbpieminkklglpmhlngfcn 'Chrome Web Store'
+[link-firefox]: https://addons.mozilla.org/en-US/firefox/addon/pocgpt/ 'Firefox Add-ons'
+[link-edge]: https://microsoftedge.microsoft.com/addons/detail/arxivutils/pocgpt/ 'Edge Add-ons'
 
 <div align="center">
 <h1>pocGPT</h1>
