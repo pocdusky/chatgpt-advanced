@@ -11,7 +11,7 @@
 
 This browser extension `adds web access` capability to [ChatGPT](https://chat.openai.com/). Get much more relevant and up-to-date answers from the chatbot!
 
-![image](https://user-images.githubusercontent.com/3750161/214144292-4fb34667-015a-43f3-906d-1d2d065d67f0.png)
+![image](https://user-images.githubusercontent.com/10376289/238179608-e75ace44-e935-4dd1-8679-9fb982f1a3e6.png)
 
 
 <br>
